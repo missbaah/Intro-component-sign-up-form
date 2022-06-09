@@ -91,6 +91,17 @@ input {
   border: 1px solid var(--grayish-blue);
 }
 
+input:invalid {
+  border: 1px solid red;
+}
+
+.err-mgs {
+  text-align: right;
+  font-size: 8px;
+  margin: 0px;
+  color: red;
+}
+
 button {
   display: block;
   background-color: var(--green);
